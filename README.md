@@ -1,7 +1,13 @@
-# Desceiption
+# Description 
 - A simple bot that fetches the daily problem from LeetCode.com with the use of a Discord command.
 
-# Set up
+# Requirements 
+Install the following packages using pip
+- discord.py
+- requests
+
+
+# Set up 
 - Add a new application and bot user to your Discord account, (on the Discord Developer Portal https://discord.com/developers/applications) then invite your bot to a server you manage:
 
 https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3072
@@ -11,6 +17,6 @@ https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permission
 
 - Once these steps are done go ahead and start the bot by something like 'python3 discordc.py'
 
-# Usage
+# Usage 
 
 - Type !leetcode to make the bot fetch the daily problem.
